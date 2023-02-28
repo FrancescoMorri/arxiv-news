@@ -1,6 +1,5 @@
 import arxiv
 import streamlit as st
-from datetime import datetime
 
 
 options = ['cs.AI','cs.GT', 'cs.CY', 'cs.LG','cs.CE', 'cs.MA', 'econ.TH', 'cond-mat.dis-nn', 'cond-mat.stat-mech', 'q-fin.CP', 'stat.ML']
@@ -36,7 +35,7 @@ def encode_query(data):
     return out
 
 
-st.set_page_config(page_title="Arxiv Personal News", page_icon="🤡", initial_sidebar_state="auto", layout='wide')
+st.set_page_config(page_title="Arxiv Personal News", page_icon="black_joker", initial_sidebar_state="auto", layout='wide')
 
 st.title("Arxiv multiple domain catchup")
 

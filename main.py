@@ -6,12 +6,12 @@ options = ['cs.AI','cs.GT', 'cs.CY', 'cs.LG','cs.CE', 'cs.MA', 'econ.TH', 'cond-
 
 def special_func(l):
     dic = {
+        'cs.GT':'Game Theory',
+        'cs.MA':'Multiagent Systems',
+        'cs.CE':'Comp. Engineering, Finance, Science',
        'cs.AI':'Artificial Intelligence',
-       'cs.GT':'Game Theory',
        'cs.LG':'Machine Learning',
-       'cs.CE':'Comp. Engineering, Finance, Science',
        'cs.CY':'Computers and Society',
-       'cs.MA':'Multiagent Systems',
        'econ.TH':'Economic Theory',
        'cond-mat.dis-nn':'Disordered Systems and Neural Networks',
        'cond-mat.stat-mech':'Statistical Mechanics',

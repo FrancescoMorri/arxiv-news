@@ -161,9 +161,6 @@ full_taxonomy = [
       ]
 
 
-options = ['cs.AI','cs.GT', 'cs.CY', 'cs.LG','cs.CE', 'cs.MA', 'econ.TH', 'cond-mat.dis-nn', 'cond-mat.stat-mech', 'q-fin.CP', 'stat.ML']
-
-
 def special_func(l):
     dic = {
         'cs.GT':'Game Theory',

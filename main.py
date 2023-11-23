@@ -212,47 +212,47 @@ selections = []
 
 with st.form('A'):
     st.subheader("Select between :blue[Computer Science] (**cs**) categories")
-    tmp = st.multiselect("**cs**", get_specifics_categories('cs'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**cs**", get_specifics_categories('cs'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Economics] (**econ**) categories")
-    tmp = st.multiselect("**econ**", get_specifics_categories('econ'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**econ**", get_specifics_categories('econ'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Electrical Engineering and System Science] (**eess**) categories")
-    tmp = st.multiselect("**eess**", get_specifics_categories('eess'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**eess**", get_specifics_categories('eess'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Mathematics] (**math**) categories")
-    tmp = st.multiselect("**math**", get_specifics_categories('math'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**math**", get_specifics_categories('math'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Physics] (**physics**) categories")
-    tmp = st.multiselect("**physics**", get_specifics_categories('physics'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**physics**", get_specifics_categories('physics'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Astro-Physics] (**astro-ph**) categories")
-    tmp = st.multiselect("**astro-ph**", get_specifics_categories('astro-ph'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**astro-ph**", get_specifics_categories('astro-ph'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False,  max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Condensed Matter] (**cond-mat**) categories")
-    tmp = st.multiselect("**cond-mat**", get_specifics_categories('cond-mat'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**cond-mat**", get_specifics_categories('cond-mat'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False,  max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[other Physics Domains]")
-    tmp = st.multiselect("", get_specifics_categories('.', not_present=True), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("", get_specifics_categories('.', not_present=True), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False,  max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Non-Linear Sciences] (**nlin**) categories")
-    tmp = st.multiselect("**nlin**", get_specifics_categories('nlin'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**nlin**", get_specifics_categories('nlin'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False,  max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Quantitative Biology] (**q-bio**) categories")
-    tmp = st.multiselect("**q-bio**", get_specifics_categories('q-bio'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**q-bio**", get_specifics_categories('q-bio'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False,  max_selections=None)
     selections.extend(tmp)
 
     st.subheader("Select between :blue[Statistics] (**stat**) categories")
-    tmp = st.multiselect("**stat**", get_specifics_categories('stat'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible", max_selections=None)
+    tmp = st.multiselect("**stat**", get_specifics_categories('stat'), default=None, format_func=get_category_display, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, max_selections=None)
     selections.extend(tmp)
 
     

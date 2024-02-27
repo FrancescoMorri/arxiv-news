@@ -205,7 +205,7 @@ def encode_query(data):
     return out
 
 
-st.set_page_config(page_title="Arxiv Personal News", page_icon="black_joker", initial_sidebar_state="auto", layout='wide')
+st.set_page_config(page_title="Arxiv Personal News", page_icon=":rainbow:", initial_sidebar_state="auto", layout='wide')
 
 st.title("Arxiv multiple domain catchup")
 selections = []
